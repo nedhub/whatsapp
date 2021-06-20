@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:line_icons/line_icon.dart';
+import 'package:whatsapp/pages/callpage.dart';
 import 'package:whatsapp/pages/statuspage.dart';
 
 class Home extends StatefulWidget {
@@ -10,12 +11,18 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
+  int pageIndex = 0;
+
+  final tabs = [
+    // StatusPage(),
+    CallPage(),
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.black,
       bottomNavigationBar: NavBar(),
-      body: Body(),
+      body: tabs[pageIndex],
     );
   }
 }
@@ -29,6 +36,12 @@ class NavBar extends StatefulWidget {
 
 class _NavBarState extends State<NavBar> {
   int pageIndex = 0;
+
+  final tabs = [
+    StatusPage(),
+    CallPage(),
+  ];
+
   @override
   Widget build(BuildContext context) {
     List iconItems = [
@@ -73,23 +86,23 @@ class _NavBarState extends State<NavBar> {
   }
 }
 
-class Body extends StatefulWidget {
-  Body({Key? key}) : super(key: key);
+// class Body extends StatefulWidget {
+//   Body({Key? key}) : super(key: key);
 
-  @override
-  _BodyState createState() => _BodyState();
-}
+//   @override
+//   _BodyState createState() => _BodyState();
+// }
 
-class _BodyState extends State<Body> {
-  int pageIndex = 0;
-  @override
-  Widget build(BuildContext context) {
-    return IndexedStack(index: pageIndex, children: [
-      StatusPage(),
-      StatusPage(),
-      StatusPage(),
-      StatusPage(),
-      StatusPage(),
-    ]);
-  }
-}
+// class _BodyState extends State<Body> {
+//   int pageIndex = 0;
+//   @override
+//   Widget build(BuildContext context) {
+//     return IndexedStack(index: pageIndex, children: [
+//       StatusPage(),
+//       CallPage(),
+//       StatusPage(),
+//       StatusPage(),
+//       StatusPage(),
+//     ]);
+//   }
+// }

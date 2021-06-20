@@ -160,6 +160,17 @@ class _StatusPageState extends State<StatusPage> {
           SizedBox(
             height: 30,
           ),
+          Container(
+              height: 40,
+              width: double.infinity,
+              decoration: BoxDecoration(color: Colors.grey[900]),
+              child: Center(
+                child: Text("No recent updates to show right now",
+                    style: TextStyle(
+                        fontSize: 14,
+                        color: Colors.white.withOpacity(0.4),
+                        fontWeight: FontWeight.w400)),
+              ))
         ]));
   }
 }

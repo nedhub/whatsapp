@@ -12,42 +12,42 @@ const List profile = [
 const List chat_data = [
   {
     "img":
-        "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2ZpbGV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F7%2F7c%2FOld_man%252C_Bihar%252C_India.jpg%2F682px-Old_man%252C_Bihar%252C_India.jpg&f=1&nofb=1",
     "name": "John Carrol",
     "text": "Yes, got it. Thanks for your contacting.",
     "date": "10/8/20"
   },
   {
     "img":
-        "https://images.unsplash.com/photo-1520155707862-5b32817388d6?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fHByb2ZpbGV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.flixist.com%2Fwp-content%2Fuploads%2F2020%2F10%2Fpromising-young-woman.jpg&f=1&nofb=1",
     "name": "Mondelez Monte",
     "text": "going to sleep now",
     "date": "6/10/20"
   },
   {
     "img":
-        "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTd8fHByb2ZpbGV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.istockphoto.com%2Fphotos%2Fhispanic-fifty-something-woman-picture-id533610307%3Fk%3D6%26m%3D533610307%26s%3D170667a%26w%3D0%26h%3DY8igLwuRJTkYmpCVWAI6HS46i97W1TTPotgKWvnVeBE%3D&f=1&nofb=1",
     "name": "Jacob Hughes",
     "text": "Have a nice day, Sopheamen 😁",
     "date": "10/6/20"
   },
   {
     "img":
-        "https://images.unsplash.com/photo-1517070208541-6ddc4d3efbcb?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTZ8fHByb2ZpbGV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.istockphoto.com%2Fphotos%2Fsteampunk-woman-looking-over-her-goggles-picture-id532418039%3Fk%3D6%26m%3D532418039%26s%3D170667a%26w%3D0%26h%3D7_RGPFvZKJ7V1CdroSYyHnTT-xJivwW2Wj-zDD8fgm0%3D&f=1&nofb=1",
     "name": "Steve Mings",
     "text": "How is everthing?",
     "date": "11/5/20"
   },
   {
     "img":
-        "https://images.unsplash.com/photo-1525879000488-bff3b1c387cf?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjV8fHByb2ZpbGV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fak6.picdn.net%2Fshutterstock%2Fvideos%2F32965006%2Fthumb%2F9.jpg&f=1&nofb=1",
     "name": "Annabelle Mary",
     "text": "ok",
     "date": "2/28/20"
   },
   {
     "img":
-        "https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzV8fHByb2ZpbGV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets.entrepreneur.com%2Fcontent%2F3x2%2F1300%2F20151021183642-woman-leaders-leader-in-charge-business-meeting.jpeg&f=1&nofb=1",
     "name": "James Hunt",
     "text": "take care! speak soon :)",
     "date": "6/1/20"
