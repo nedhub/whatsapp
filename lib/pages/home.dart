@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:line_icons/line_icon.dart';
 import 'package:whatsapp/pages/callpage.dart';
 import 'package:whatsapp/pages/camera.dart';
+import 'package:whatsapp/pages/settings.dart';
 import 'package:whatsapp/pages/statuspage.dart';
 
 class Home extends StatefulWidget {
@@ -17,7 +18,8 @@ class _HomeState extends State<Home> {
   final tabs = [
     // StatusPage(),
     // CallPage(),
-    CameraPage(),
+    // CameraPage(),
+    SettingsPage(),
   ];
   @override
   Widget build(BuildContext context) {
