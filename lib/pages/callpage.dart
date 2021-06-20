@@ -245,6 +245,91 @@ class _CallPageState extends State<CallPage> {
   }
 
   Widget getMissed() {
-    return Container();
+    var size = MediaQuery.of(context).size;
+    return Column(
+        children: List.generate(chat_data.length, (index) {
+      return Padding(
+        padding: const EdgeInsets.only(
+          left: 15,
+          right: 15,
+        ),
+        child: Column(
+          children: [
+            Row(
+              children: [
+                Container(
+                  width: (size.width - 30) * 0.75,
+                  child: Row(
+                    children: [
+                      Container(
+                        width: 45,
+                        height: 45,
+                        decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            image: DecorationImage(
+                                image: NetworkImage(chat_data[index]['img']),
+                                fit: BoxFit.cover)),
+                      ),
+                      SizedBox(width: 10),
+                      Container(
+                          width: (size.width - 85) * 0.7,
+                          child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(chat_data[index]['name'],
+                                    style: TextStyle(
+                                        fontSize: 16,
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.w600)),
+                                SizedBox(
+                                  height: 3,
+                                ),
+                                Row(children: [
+                                  Icon(Icons.call,
+                                      size: 17,
+                                      color: Colors.white.withOpacity(0.5)),
+                                  SizedBox(width: 3),
+                                  Text(
+                                    "Missed",
+                                    style: TextStyle(
+                                        fontSize: 14,
+                                        color: Colors.red.withOpacity(0.5),
+                                        fontWeight: FontWeight.w400),
+                                  )
+                                ])
+                              ]))
+                    ],
+                  ),
+                ),
+                Container(
+                  width: (size.width - 30) * 0.25,
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text(
+                        chat_data[index]['date'],
+                        style: TextStyle(
+                            fontSize: 15,
+                            fontWeight: FontWeight.w500,
+                            color: Colors.white.withOpacity(0.5)),
+                      ),
+                      Icon(Icons.info_outline,
+                          color: Colors.lightBlue, size: 20)
+                    ],
+                  ),
+                )
+              ],
+            ),
+            Padding(
+              padding: const EdgeInsets.only(left: 55),
+              child: Divider(
+                color: Colors.white.withOpacity(0.3),
+              ),
+            ),
+          ],
+        ),
+      );
+    }));
   }
 }
